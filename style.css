@@ -1,0 +1,39 @@
+h2 {
+  font-size: 24px;
+}
+
+
+body {
+  font-family: Roboto, sans-serif;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin: 8px;
+}
+
+h2, .links {
+  margin: 16px;
+}
+
+.links {
+  list-style: none;
+  font-size: 18px;
+}
+
+.top-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-links {
+  display:flex;
+}
+
+.header {
+  background: #1F2937;
+}
+
