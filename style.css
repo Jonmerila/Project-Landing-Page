@@ -5,6 +5,7 @@ h2 {
 h1 {
   font-size: 48px;
   font-weight: bolder;
+  width: 350px;
 }
 
 body {
@@ -30,12 +31,14 @@ h2, .links {
 
 button {
   text-align: center;
-  padding: 4px 18px;
+  padding: 8px 36px;
   background-color: #3882F6;
   border: none;
-  border-radius: 6px;
+  border-radius: 8px;
   color: white;
   position:absolute;
+  font-size:18px;
+  font-weight: 200;
 }
 
 button:hover {
@@ -44,12 +47,12 @@ button:hover {
 }
 
 button:active {
-  padding:2px 16px;
+  padding:6px 34px;
 }
 
 .links {
   list-style: none;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .top-header {
@@ -72,4 +75,28 @@ button:active {
   justify-content: space-evenly;
   align-items: center;
   margin: 18px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box1, .box2, .box3, .box4 {
+  width:160px;
+  height: 160px;
+  border:#3882F6 solid;
+  border-width: 4px;
+  margin: 50px;
+  border-radius: 10px;
+}
+
+#boxsection-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  color: #1F2937;
+  margin-top: 86px;
 }
